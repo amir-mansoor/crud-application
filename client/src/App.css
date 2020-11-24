@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  padding: 10px;
+  margin: 60px;
+  border: none;
+  border: 3px solid black;
+  font-size: 25px;
+}
+
+.card {
+  width: 500px;
+  height: 120px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px gray;
+}
+
+#updateInput {
+  width: 100px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
