@@ -40,12 +40,6 @@ function App() {
             <div className="card"> 
               <h1>{val.movie_name}</h1> 
               <p>{val.movie_review}</p>
-
-              <div>
-                <button>Delete</button>
-                <input type="text" id="updateInput" />
-                <button>Update</button>
-              </div>
             </div>
           );
         })}
